@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>love you</title>
+    <link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/demo.css" />
+    <link rel="stylesheet" href="css/audioplayer.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="jQuery.min.js"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/audioplayer.js"></script>
+    <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
+    <script src="js/index.js"></script>
+    <style>
+        @font-face {
+        font-family: 'icomoon';
+        src:  url('fonts/icomoon.eot?tki52');
+         src:  url('fonts/icomoon.eot?tki52#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?tki52') format('truetype'),
+        url('fonts/icomoon.woff?tki52') format('woff'),
+         url('fonts/icomoon.svg?tki52#icomoon') format('svg');
+        font-weight: normal;
+         font-style: normal;
+         font-display: block;
+        }     
+    </style>
+</head>
+<body>
+    <div class="left"><img src="袁冰妍left.jpg"></div>
+    <div class="right"><img src="袁冰妍right.jpg"></div>
+    <header>
+        <section>
+            <div>
+                <span>记事本</span>
+                <input type="text" placeholder = "添加待办事项" class="center">
+            </div>
+        </section>
+    </header>
+    <div class="box">
+        <div class = "content">
+            <span>待办事项</span>
+            <ul></ul>
+            <span>已办事项</span>
+            <ol></ol>
+        </div>
+        <footer>
+            <div id="wrapper">
+                <audio preload="auto" controls>
+                    <source src="锦瑟剪辑.mp3">
+                </audio>
+            </div>
+            <p>本站模仿todolist</p>
+        </footer>
+    </div>
+</body>
+</html>
